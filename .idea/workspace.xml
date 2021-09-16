@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a72a67-fb04-468f-b430-9e817644f4a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cicd_lambda_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/email/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/login/LoginHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/register/RegisterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/service/SignUpImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/service/SignUpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/request/EmailRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/request/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/response/EmailResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/response/Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +53,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/response" />
+      <recent name="$PROJECT_DIR$/src/main/java/lambda/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/request" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.service" />
+      <recent name="request" />
+      <recent name="model" />
+      <recent name="response" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -85,5 +111,20 @@
       <updated>1631808583574</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2274" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631817632261">
+      <screen x="1680" y="23" width="1920" height="1002" />
+    </state>
+    <state x="2274" y="321" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631817632261" />
+    <state x="2409" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1631811848869">
+      <screen x="1680" y="23" width="1920" height="1002" />
+    </state>
+    <state x="2409" y="234" key="#com.intellij.ide.util.MemberChooser/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631811848869" />
+    <state x="2071" y="88" key="SettingsEditor" timestamp="1631821350368">
+      <screen x="1680" y="23" width="1920" height="1002" />
+    </state>
+    <state x="342" y="90" key="SettingsEditor/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1631818299902" />
+    <state x="2071" y="88" key="SettingsEditor/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631821350368" />
   </component>
 </project>
