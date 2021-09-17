@@ -1,6 +1,6 @@
-### API Gateway manual
+# API Gateway manual
 
-#Steps
+## Steps
 - Login to the AWS API Gateway Console (https://us-west-2.console.aws.amazon.com/apigateway)
 - Create a new web API (in the same region that your Lambda from the previous exercise is running in)
 - Click the Create API button
@@ -69,7 +69,7 @@
 - Click the Create button
  
 
-# Next, add some resources to your web API. Resources define the URLs that clients will use when calling your web API operations.
+## Next, add some resources to your web API. Resources define the URLs that clients will use when calling your web API operations.
 
 - Select “Resources” on the left side.
 - Add the /sendemail resource to your web API.
@@ -99,7 +99,7 @@ This endpoint can be called by using an HTTP POST request that has /sendemail as
 (whatever JSON is expected by your send_email Lambda function).
  
 
-# Next, configure the models for the HTTP request and response bodies used by the /sendemail POST method.
+## Next, configure the models for the HTTP request and response bodies used by the /sendemail POST method.
 - Click on the “Method Request” link.
 - Click on “Request Body”.
 - Click “Add model”.
@@ -113,7 +113,7 @@ This endpoint can be called by using an HTTP POST request that has /sendemail as
 - This tells API Gateway that the response body for the /sendemail POST method should have the format defined by the EmailResult model you created earlier.
 - Click the “<- Method Execution” link in the top-left corner to go back to the previous screen.
  
-# Do an internal test of your /sendemail endpoint.
+## Do an internal test of your /sendemail endpoint.
 - Click Test (lightning bolt)
 - In the "Request Body" field, enter a JSON object containing:
 -
@@ -129,18 +129,18 @@ Look in the "Logs" field to see the log output for the test request.
 If all went well, an email should have been sent.
  
 
-# Deploy your API.  This will make it callable from outside the AWS environment by anyone on the Web.
+## Deploy your API.  This will make it callable from outside the AWS environment by anyone on the Web.
 - In the Actions menu, select Deploy API
 - Select [New Stage]
 - Give your stage a name (e.g., dev) and description
 - Click the Deploy button
  
 
-# Do an external test of your /sendemail endpoint.
+## Do an external test of your /sendemail endpoint.
  - curl
  - postman
  
-# Do an internal test of your /sendemail/{to}/{from} endpoint.
+## Do an internal test of your /sendemail/{to}/{from} endpoint.
 - Click Test (lightning bolt)
 - In the Path section, enter values for the {from} and {to} email addresses
 - In the Headers text area, enter the following text:
