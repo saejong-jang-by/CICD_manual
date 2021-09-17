@@ -140,4 +140,3 @@ install Docker on EC2 instance and run
 - Add domain:port/github-webhook/
 - And change contentType to Application/json
 - test commit
-
