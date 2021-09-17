@@ -13,6 +13,8 @@
     
 ## create repo and push the project
 
+- create git repository and push maven or gradle project 
+
 ## EC2 with Linux and ssh
 
 - set up EC2 with Linux machine 
