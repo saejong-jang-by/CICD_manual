@@ -1,7 +1,8 @@
 # CI/CD pipeline manual
 
-## This project contains basic structures of backend logic using AWS Lambda and CI/CD pipeline with using Docker and Jenkins. 
-## Docker, Jenkins, Github WebHook, EC2, S3, CodeDeploy, Load Balancers, API Gateway, IAM, Lambda, SES are used in this project
+### This project contains basic structures of backend logic using AWS Lambda and CI/CD pipeline with using Docker and Jenkins. Docker, Jenkins, Github WebHook, EC2, S3, CodeDeploy, Load Balancers, API Gateway, IAM, Lambda, SES are used in this project
+
+# Steps
 
 ## Appspec.yml
 
