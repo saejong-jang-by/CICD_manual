@@ -11,7 +11,7 @@
 - name has to be appspec.yml
 - appspec.yml has to be located in root of the project
     
-## create repo and push the project
+## Create repo and push the project
 
 - create git repository and push maven or gradle project 
 
