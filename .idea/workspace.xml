@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a72a67-fb04-468f-b430-9e817644f4a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cicd_lambda_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/email/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/login/LoginHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/register/RegisterHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/service/SignUpImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/service/SignUpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/request/EmailRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/request/SignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/EmailResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,5 +112,9 @@
     </state>
     <state x="342" y="90" key="SettingsEditor/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1631818299902" />
     <state x="2071" y="88" key="SettingsEditor/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631821350368" />
+    <state x="2301" y="302" width="764" height="676" key="search.everywhere.popup" timestamp="1631839987464">
+      <screen x="1680" y="23" width="1920" height="1002" />
+    </state>
+    <state x="2301" y="302" width="764" height="676" key="search.everywhere.popup/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631839987464" />
   </component>
 </project>
