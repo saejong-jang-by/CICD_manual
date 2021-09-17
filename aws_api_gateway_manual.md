@@ -69,7 +69,7 @@
 - Click the Create button
  
 
-# Next, we will add some resources to your web API. Resources define the URLs that clients will use when calling your web API operations.
+# Next, add some resources to your web API. Resources define the URLs that clients will use when calling your web API operations.
 
 - Select “Resources” on the left side.
 - Add the /sendemail resource to your web API.
