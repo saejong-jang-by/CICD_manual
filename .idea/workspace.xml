@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a72a67-fb04-468f-b430-9e817644f4a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/aws_api_gateway_manual.md" beforeDir="false" afterPath="$PROJECT_DIR$/aws_api_gateway_manual.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-before.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/kill_process.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/remove_before.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/run_process.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
