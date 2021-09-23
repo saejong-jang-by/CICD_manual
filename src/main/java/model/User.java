@@ -1,8 +1,5 @@
 package model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Represents a user in the system.
  */
@@ -33,15 +30,6 @@ public class User implements Comparable<User> {
             this.alias = String.format("@%s", alias);
         }
     }
-
-//    public String getUsername() {
-//        return username;
-//    }
-//
-//    public void setUsername(String username) {
-//        this.username = username;
-//    }
-
 
     public void setAlias(String alias) {
         if (alias.contains("@")){
