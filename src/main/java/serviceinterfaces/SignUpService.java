@@ -1,4 +1,4 @@
-package lambda.service;
+package serviceinterfaces;
 
 
 import request.SignUpRequest;

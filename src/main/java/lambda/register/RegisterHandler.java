@@ -2,8 +2,8 @@ package lambda.register;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import lambda.service.SignUpImpl;
-import lambda.service.SignUpService;
+import service.SignUpImpl;
+import serviceinterfaces.SignUpService;
 import request.SignUpRequest;
 import response.LoginResponse;
 

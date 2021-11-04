@@ -1,4 +1,4 @@
-package lambda.service;
+package service;
 
 import request.SignUpRequest;
 import response.LoginResponse;

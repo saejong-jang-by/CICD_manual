@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a72a67-fb04-468f-b430-9e817644f4a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/VocabCustomDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/VocabDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Vocab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/request/VocabRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/response/VocabResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/VocabCustomImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/VocabHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/VocabIpml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serviceinterfaces/VocabService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/register/RegisterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/register/RegisterHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/service/SignUpImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/SignUpImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/service/SignUpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviceinterfaces/SignUpService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,10 +57,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/response" />
+      <recent name="$PROJECT_DIR$/src/main/java/lambda/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/request" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dao" />
@@ -56,10 +72,10 @@
       <recent name="" />
       <recent name="lambda.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/response" />
-      <recent name="$PROJECT_DIR$/src/main/java/lambda/service" />
-      <recent name="$PROJECT_DIR$/src/main/java/request" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,11 +121,24 @@
       <screen x="1680" y="23" width="1920" height="1002" />
     </state>
     <state x="2274" y="321" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631817632261" />
-    <state x="638" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1632363441288">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="2409" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1635919506205">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="638" y="221" key="#com.intellij.ide.util.MemberChooser/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1632363441288" />
     <state x="2409" y="234" key="#com.intellij.ide.util.MemberChooser/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631811848869" />
+    <state x="2409" y="245" key="#com.intellij.ide.util.MemberChooser/1680.23.1920.1057/0.23.1680.972@1680.23.1920.1057" timestamp="1635919506205" />
+    <state x="2195" y="474" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1635917774476">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2195" y="474" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1680.23.1920.1057/0.23.1680.972@1680.23.1920.1057" timestamp="1635917774476" />
+    <state x="2358" y="429" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1635917778459">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2358" y="429" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1680.23.1920.1057/0.23.1680.972@1680.23.1920.1057" timestamp="1635917778459" />
+    <state x="2322" y="296" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635919285825">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2322" y="296" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.23.1920.1057/0.23.1680.972@1680.23.1920.1057" timestamp="1635919285825" />
     <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1632363004164">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -119,6 +148,10 @@
     </state>
     <state x="342" y="90" key="SettingsEditor/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1631818299902" />
     <state x="2071" y="88" key="SettingsEditor/1680.23.1920.1002/0.23.1680.1027@1680.23.1920.1002" timestamp="1631821350368" />
+    <state x="2363" y="291" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1635918128912">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2363" y="291" key="com.intellij.testIntegration.createTest.CreateTestDialog/1680.23.1920.1057/0.23.1680.972@1680.23.1920.1057" timestamp="1635918128912" />
     <state x="602" y="138" key="refactoring.ChangeSignatureDialog" timestamp="1632363432841">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
